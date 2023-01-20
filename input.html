@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J&k Administration</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="jk">
+        <h1>Jammu & Kashmir Revenue Department</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Government_of_Jammu_and_Kashmir.svg/640px-Government_of_Jammu_and_Kashmir.svg.png" alt="logo" width="128" height="120">
+        
+    </div> 
+    <div>
+        <nav class="navbar-dark">
+            <div class="container">
+                <div class="topnav" id="navbar">
+                        <a class="active" aria-current="page" href="page.html">Dashboard</a>
+                        <a href="input.html">Input</a>
+                        <a href="login.html"  class="right">Logout</a>  
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="form">
+        <form>
+        <div class="left">
+        <label for="districts">District</label>
+        <select name="districts" id="districts" required>
+            <option value="">Select a District</option>
+            <option value="jammu">Jammu</option>
+            
+        </select>
+        </div>
+        <label for="tehsils">Tehsil</label>
+        <select name="tehsils" id="tehsils" required>
+            <option value="">Select a Tehsil</option>
+            <option value="bahu">Bahu</option>
+            <option value="jammu">Jammu</option>
+            <option value="jammu_north">Jammu North</option>
+            <option value="jammu_south">Jammu South</option>
+        </select><br>
+             <label for="nayabat">Nayabat:</label>
+            <input type="text" id="name" name="area" required >
+            <label for="gq">G.Q.Circle:</label>
+            <input type="text" id="name" name="area" required>
+            <label for="patwar">Patwar Halqa:</label>
+            <input type="text" id="name" name="area" required>
+            <label for="village">Village:</label>
+            <input type="text" id="name" name="area" required>
+            <label for="ror">Records of Rights(Jamabandi):</label>
+            <input type="text" id="name" name="ror" required>
+            <label for="survey">Survey Number(Khasra):</label>
+            <input type="text" id="name" name="area" required>
+            <label for="Enc">Encroachment Captured:</label>
+            <input type="number" id="enc" name="enc" placeholder="in sqft" required>
+            <label for="Enc">Latitude and Longitude:</label>
+            <input type="text" id="latlong" name="latlong" placeholder="32.690339, 74.887375" required><br>
+            <label for="name">Officer Name:</label>
+            <input type="text" id="area" name="area" ><br>
+            <input type="submit" value="Submit"><br>
+            <input type="reset">
+
+          </form> 
+    </div>
+</body>
+</html>
